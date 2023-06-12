@@ -6,10 +6,10 @@ public class Plant {
     int waterNeedsWeekly;
     String description;
 
-    Plant(String n, String v, int wNW, String d){
+    Plant(String n, String v, int wNw, String d){
         name = n;
         variety = v;
-        waterNeedsWeekly = wNW;
+        waterNeedsWeekly = wNw;
         description = d;
     }
 
