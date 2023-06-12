@@ -6,14 +6,14 @@ public class Plant {
     int waterNeedsWeekly;
     String description;
 
-    Plant(String n, String v, int wNw, String d){
+    Plant(String n, String v, int wN, String d) {
         name = n;
         variety = v;
-        waterNeedsWeekly = wNw;
+        waterNeedsWeekly = wN;
         description = d;
     }
 
-    void showInfo(){
+    void showInfo() {
         String info = "Roślina " + name + " " + variety + " potrzebuje " + waterNeedsWeekly
                 + " ml wody tygodniowo. " + description;
         System.out.println(info);
