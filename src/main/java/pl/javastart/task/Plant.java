@@ -6,8 +6,11 @@ public class Plant {
     int waterNeedsWeekly;
     String description;
 
-    Plant(){
-
+    Plant(String n, String v, int wNW, String d){
+        name = n;
+        variety = v;
+        waterNeedsWeekly = wNW;
+        description = d;
     }
 
     void showInfo(){
